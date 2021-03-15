@@ -217,8 +217,17 @@
         width: 300px;
         margin-bottom: 20px;
     }
+    .shop__by-category h1{
+        font-size: inherit;
+    }
+    .revievs__cnt{
+        margin: 0;
+    }
     .footer__new-sletter .sbt .button input{
         width: auto;
+    }
+    .slick-list.draggable{
+        width: 300px;
     }
     .footer__text{
         margin: 0;
