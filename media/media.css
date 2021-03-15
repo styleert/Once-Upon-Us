@@ -198,9 +198,7 @@
     .text{
         text-align: center;
     }
-    .slick-list.draggable{
-        width: 300px;
-    }
+
 }
 @media only screen and (max-width: 450px) {
     .section_four__text p{
@@ -226,20 +224,29 @@
     .footer__new-sletter .sbt .button input{
         width: auto;
     }
-    .slick-list.draggable{
-        width: 300px;
-    }
     .footer__text{
         margin: 0;
     }
 }
 @media only screen and (max-width: 376px) {
+
+}
+
+@media (min-width: 320px) and (max-width: 520px) {
     .slick-list.draggable{
         width: 290px;
     }
-}
-@media only screen and (max-width: 320px) {
-    .slick-list.draggable{
-        width: 290px;
+    .most_popular h2{
+        text-align: center;
     }
-}
+
+    .most_popular{
+        margin: 50px 0 80px 0;
+    }
+
+    .revievs__slider_cnt p{
+        margin: 0;
+        font-size: 8px;
+    }
+ }
+
