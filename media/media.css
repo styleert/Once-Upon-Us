@@ -199,7 +199,7 @@
         text-align: center;
     }
     .slick-list.draggable{
-        width: 320px;
+        width: 300px;
     }
 }
 @media only screen and (max-width: 450px) {
@@ -225,5 +225,7 @@
     }
 }
 @media only screen and (max-width: 320px) {
-
+    .slick-list.draggable{
+        width: 290px;
+    }
 }
