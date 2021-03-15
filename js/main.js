@@ -17,7 +17,11 @@ $(document).ready(function () {
       },
       {
         breakpoint: 1200,
-        settings: 'unslick'
+        settings:{
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: false,
+        }
       },
       {
         breakpoint: 600,
@@ -48,14 +52,18 @@ $(document).ready(function () {
       {
         breakpoint: 1450,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToShow: 3,
+          slidesToScroll: 3,
           infinite: false,
         }
       },
       {
         breakpoint: 1200,
-        settings: 'unslick'
+        settings:{
+          slidesToShow: 1,
+          slidesToScroll: 2,
+          infinite: false,
+        }
       },
       {
         breakpoint: 600,

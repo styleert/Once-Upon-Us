@@ -14,10 +14,6 @@
         display: none;
     }
 
-    .hero__text{
-        left: 350px;
-    }
-    
     .hero{
         display: none;
     }
@@ -60,6 +56,7 @@
 
 }
 @media only screen and (max-width: 992px) {
+
     .logo p{
       text-align: center;
 }
@@ -67,13 +64,15 @@
         padding-right: 5px;
     }
 
+    .slick-list.draggable{
+        width: 300px;
+    }
+
     .phone_number{
         display: none;
     }
 
-.revievs__slider{
-    display: none;
-}
+
 }
 
 @media only screen and (max-width: 870px) {
