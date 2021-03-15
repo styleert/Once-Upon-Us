@@ -160,7 +160,7 @@
         align-items: center;
     }
     .slick-list.draggable{
-        width: 500px;
+        width: 600px;
     }
 }
 @media only screen and (max-width: 520px) {
@@ -228,10 +228,26 @@
         margin: 0;
     }
 }
-@media only screen and (max-width: 376px) {
 
+
+@media (min-width: 320px) and (max-width: 376px) {
+    .slick-list.draggable{
+        width: 250px;
+    }
 }
 
+@media (min-width: 320px) and (max-width: 1460px){
+    /* .hero{
+        position: static;
+    } */
+    /* .hero img{
+        display: none;
+    }
+    .hero__text{
+        text-align: center;
+        top: 150px;
+    } */
+}
 @media (min-width: 320px) and (max-width: 520px) {
     .slick-list.draggable{
         width: 290px;
