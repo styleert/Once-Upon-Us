@@ -168,11 +168,9 @@ main{
 // MAIN
 
 .hero{
-    position: relative;
     height: 630px;
     width: 1440px;
     img{
-        position: absolute;
         top: -110px;
         z-index: 0;
     }

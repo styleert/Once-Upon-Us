@@ -1,12 +1,9 @@
 @media only screen and (max-width: 1457px) {
-    .slider{
-        width: 1200px;
+    .header{
+        position: relative;
     }
-    .revievs{
+    /* .revievs{
         width: 1200px;
-    }
-    .revievs__slider{
-        display: none;
     }
 
     .hero img{
@@ -15,16 +12,78 @@
 
     .follow_our_instagram{
         margin-bottom: 50px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1200px) {
+  
+    .section_four__text{
+        margin: 20px 0 0 20px;
+    }
+
+    .section_four__right img{
+        display: none;
+    }
+
+    .hero__text{
+        left: 350px;
+    }
+    
+    .hero{
+        display: none;
+    }
+
+    .lorem__text{
+        margin: 0 20px 0 0;
+        font-size: 20px;
+    }
+    .star{
+        display: none;
+    }
+
+    .footer{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .revievs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 800px;
+    }
+    .revievs__cnt{
+        width: auto;
+        text-align: center;
+    }
+    .revievs__slider_container{
+        margin-left: 20px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .revievs__slider_cnt img:last-child{
+        display: none;
+    }
+    .remove{
+        display: none;
+    }
 
 }
 @media only screen and (max-width: 992px) {
- 
+    .header{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 767px;
+        font-size: 10px;
+    }
 }
 @media only screen and (max-width: 768px) {
+    .header{
+        margin: 0 auto;
+        width: 399px;
+    }
     .footer{
         display: flex;
         flex-direction: column;
@@ -33,8 +92,44 @@
     }
 }
 @media only screen and (max-width: 480px) {
- 
+    .header{
+        
+    }
+    .hero img{
+        display: none;
+
+    }
+
+    .section_four{
+        width: 319px;
+    }
+    .section_four img{
+        display: none;
+    }
+    .section_four text{
+        display: none;
+    }
+
+     .revievs{
+        width: 319px;
+    }
+
+    .revievs__slider{
+        display: none;
+    }
+    
+    .lorem{
+        width: 319px;
+    }
+    .lorem img{
+        display: none;
+    }
+
+    .slider{
+        display: none;
+
+    }
 }
 @media only screen and (max-width: 320px) {
- 
+
 }
