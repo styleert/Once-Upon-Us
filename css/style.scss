@@ -484,7 +484,7 @@ main{
         &__slider_container{
             display: flex;
             flex-direction: row;
-            max-width: 978px;
+            width: 30%;
         }
         &__slider_cnt{
             display: flex;
@@ -654,8 +654,7 @@ main{
     
 
     .slider{
-        display: flex;
-        align-items: center;
+        display: block;
         max-width: 1430px;
         .container h3{
                 font-size: 16px;
@@ -663,8 +662,7 @@ main{
       }
       
       .slider-item {
-        display: flex;
-        flex-direction: row;
+        display: block;
         width: 270px;
         height: 315px;
         background-size: cover;

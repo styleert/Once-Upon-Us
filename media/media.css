@@ -16,9 +16,16 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  
+  /* .most_popular{
+      width: 1100px;
+  }
+
+  .trending_now{
+    width: 1100px;
+} */
+
     .section_four__text{
-        margin: 20px 0 0 20px;
+        margin: 20px 0 0 20px; 
     }
 
     .section_four__right img{
@@ -71,19 +78,73 @@
 
 }
 @media only screen and (max-width: 992px) {
-    .header{
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        width: 767px;
-        font-size: 10px;
+    .logo p{
+      text-align: center;
+}
+    .main-inp{
+        padding-right: 5px;
     }
+
+
+.revievs__slider{
+    display: none;
+}
+
+@media only screen and (max-width: 870px) {
+.section_four{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.section_four__main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_four__text{
+    text-align: center;
+}
+.section_four__text h2{
+    font-size: 12px;
+}
+.section_four__text p{
+    font-size: 10px;
+}
+.border_two{
+    display: none;
+}
+
+.lorem{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.lorem__text{
+    text-align: center;
+}
+.lorem__img-left,
+.lorem__img-right{
+    display: none;
+}
 }
 @media only screen and (max-width: 768px) {
-    .header{
-        margin: 0 auto;
-        width: 399px;
-    }
+   .logo{
+       font-size: inherit;
+       width: auto;
+   }
+
+   nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px 20px 0;
+   }
+   .header__bottom nav a {
+       font-size: 12px;
+       padding: 10px;
+   }
+   .remove-two{
+       display: none;
+   }
     .footer{
         display: flex;
         flex-direction: column;
@@ -92,19 +153,18 @@
     }
 }
 @media only screen and (max-width: 480px) {
-    .header{
-        
-    }
+
     .hero img{
         display: none;
 
     }
-
-    .section_four{
-        width: 319px;
+    .section_four__main{
+        margin: 0;
+        height: auto;
     }
     .section_four img{
-        display: none;
+        width: 200px;
+        height: 200px;
     }
     .section_four text{
         display: none;
@@ -117,17 +177,24 @@
     .revievs__slider{
         display: none;
     }
-    
-    .lorem{
-        width: 319px;
+
+
+     .lorem img{
+        width: 200px;
+        height: 200px;   
     }
-    .lorem img{
-        display: none;
+
+    .lorem__img-main{
+        display: contents;
     }
 
     .slider{
         display: none;
 
+    }
+
+    .text{
+        text-align: center;
     }
 }
 @media only screen and (max-width: 320px) {
