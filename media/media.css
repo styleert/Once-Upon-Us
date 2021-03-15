@@ -2,17 +2,7 @@
     .header{
         position: relative;
     }
-    /* .revievs{
-        width: 1200px;
-    }
 
-    .hero img{
-       width: 1200px;
-    }
-
-    .follow_our_instagram{
-        margin-bottom: 50px;
-    } */
 }
 
 @media only screen and (max-width: 1200px) {
@@ -199,9 +189,34 @@
     .lorem__img-main{
         display: contents;
     }
-
+    .footer__new-sletter{
+        margin: 0;
+    }
+    
     .text{
         text-align: center;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .section_four__text p{
+        font-size: 8px;
+    }
+    .section_four{
+        width: 319px;
+    }
+    
+    .footer__new-sletter .icons{
+        margin: 0;
+    }
+    .footer__new-sletter .sbt{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .footer__new-sletter .sbt .button input{
+        width: auto;
+    }
+    .footer__text{
+        margin: 0;
     }
 }
 @media only screen and (max-width: 320px) {
