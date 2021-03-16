@@ -55,7 +55,6 @@
 .header__bottom {
   display: contents;
   background-color: #fff;
-  width: 100%;
 }
 
 .header__bottom .nav {
@@ -299,10 +298,21 @@ main {
 }
 
 .most_popular button {
+  display: none;
   width: 186px;
   height: 44px;
   margin: 100px 0 0 37px;
   cursor: pointer;
+  background-color: #FE5269;
+  border: none;
+  border-radius: 12px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: #fff;
+}
+
+.most_popular .container:hover button {
+  display: block;
 }
 
 .most_popular .slider-header-cnt a {
@@ -943,11 +953,6 @@ main {
 .header__bottom nav {
   width: 20px;
   padding: 0;
-}
-
-.menu ul {
-  -webkit-transform: translateY(-20px) translateX(70px);
-          transform: translateY(-20px) translateX(70px);
 }
 
 #check {
