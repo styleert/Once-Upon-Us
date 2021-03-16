@@ -4,144 +4,288 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">    
-    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
-    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="media/media.css">
 
-
     <link rel="stylesheet" href="css/slider.css">
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <title>Onse upon us</title>
 </head>
 <body>
-    <header id="header" class="header">
-        <div class="header__top">
-            <div class="header__top__wraper">
-                <div class="logo">
-                    <a href="index.html"><p>ONCE UPON US</p></a>
+<header id="header" class="header">
+    <div class="header__top">
+        <div class="header__top__wraper">
+            <div class="logo">
+                <a href="index.html"><p>ONCE UPON US</p></a>
+            </div>
+            <div class="phone_number">
+                <div class="phone_img">
+                    <img src="img/icons/phone.svg" alt="phone">
                 </div>
-                <div class="phone_number">
-                    <div class="phone_img">
-                        <img src="img/icons/phone.svg" alt="phone">
-                    </div>
-                    <a href="tel:(303) 555-0105">(303) 555-0105</a>
+                <a href="tel:(303) 555-0105">(303) 555-0105</a>
+            </div>
+            <div class="main-inp">
+                <input type="text" placeholder="What are you looking for?">
+                <div class="search-img">
+                    <img src="img/icons/search.svg" alt="search">
                 </div>
-                <div class="main-inp">
-                    <input type="text" placeholder="What are you looking for?">
-                    <div class="search-img">
-                        <img src="img/icons/search.svg" alt="search">
-                    </div>
+            </div>
+            <div class="header-icons">
+                <div class="heart">
+                    <a href="#">
+                        <img src="img/icons/heart.svg" alt="heart">
+                    </a>
                 </div>
-                <div class="header-icons">
-                    <div class="heart">
-                        <a href="#">
-                            <img src="img/icons/heart.svg" alt="heart">
-                        </a>
-                    </div>
-                    <div class="shopping-cart">
-                        <a href="#">
-                            <img src="img/icons/shopping-cart.svg" alt="shopping-cart">
-                        </a>
-                    </div>
-                    <div class="user">
-                        <a href="#">
-                            <img src="img/icons/user.svg" alt="user">
-                        </a>
-                    </div>
+                <div class="shopping-cart">
+                    <a href="#">
+                        <img src="img/icons/shopping-cart.svg" alt="shopping-cart">
+                    </a>
+                </div>
+                <div class="user">
+                    <a href="#">
+                        <img src="img/icons/user.svg" alt="user">
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="header__bottom">
-            <div class="menush">
+    </div>
+    <div class="header__bottom">
+        <div class="menush">
             <nav class="nav">
-                <input type="checkbox" id="check" />
-              <label for="check" class="burger">
-                <span></span>
-              </label>
-              <div class="menu">
-              <ul>
-                <li><a href="#">WOMEN</a></li>
-                <li><a href="#">MEN</a></li>
-                <li><a href="#">COUPLE CLOTHES</a></li>
-                <li><a href="#">COUPLE ACCESORIES</a></li>
-                <li><a href="#">COUPLE GIFTS</a></li>
-                <li><a href="#">SALE</a></li>
-                <li><a href="#">INFO</a></li>
-                <li><a href="#">BLOG</a></li>
-              </ul>
-            </div>
-          </nav>
+                <input type="checkbox" id="check"/>
+                <label for="check" class="burger">
+                    <span></span>
+                </label>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">WOMEN</a></li>
+                        <li><a href="#">MEN</a></li>
+                        <li><a href="#">COUPLE CLOTHES</a></li>
+                        <li><a href="#">COUPLE ACCESORIES</a></li>
+                        <li><a href="#">COUPLE GIFTS</a></li>
+                        <li><a href="#">SALE</a></li>
+                        <li><a href="#">INFO</a></li>
+                        <li><a href="#">BLOG</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-        </div>
-        <div class="header__under-bottom">
+    </div>
+
+    <div style="background-color: #000000; width: 100%;">
+        <div class="header__under-bottom section-wrapper">
             <p>Free standard shipping on orders over </p><span>$51</span>
         </div>
-    </header>
-    <main>
-        <div id="hero" class="hero">
-            <img src="img/hero-baner.png" alt="hero-baner">
-            <div class="hero__text">
-                <h1>Sed Dapibus Ultries Cies Molestie!</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Sed iaculis justo enim, lorem vel conva.</p>
-                <a href="#">SHOP NOW</a>
+    </div>
+
+</header>
+<main>
+    <div id="hero" class="hero">
+        <img src="img/hero-baner.png" alt="hero-baner">
+        <div class="hero__text">
+            <h1>Sed Dapibus Ultries Cies Molestie!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed iaculis justo enim, lorem vel conva.</p>
+            <a href="#">SHOP NOW</a>
+        </div>
+    </div>
+    <div class="most_popular">
+        <h2>Most Popular</h2>
+        <div class="slider">
+            <div class="container remove">
+                <div class="slider-item" style="background-image: url(img/card-item.png);">
+                    <div class="slider-header-cnt">
+                        <img src="img/icons/like.svg" alt="like">
+                        <a href="#">
+                            <button>SHOP NOW</button>
+                        </a>
+                    </div>
+                </div>
+                <h3>His Beard & Her Butt Shirts</h3>
+                <img src="img/icons/star.png" alt="star">
+                <img src="img/icons/price.png" alt="price">
+            </div>
+            <div class="container remove">
+                <div class="slider-item" style="background-image: url(img/card-item.png);">
+                    <div class="slider-header-cnt">
+                        <img src="img/icons/like.svg" alt="like">
+                        <a href="#">
+                            <button>SHOP NOW</button>
+                        </a>
+                    </div>
+                </div>
+                <h3>His Beard & Her Butt Shirts</h3>
+                <img src="img/icons/star.png" alt="star">
+                <img src="img/icons/price.png" alt="price">
+            </div>
+            <div class="container remove">
+                <div class="slider-item" style="background-image: url(img/card-item.png);">
+                    <div class="slider-header-cnt">
+                        <img src="img/icons/like.svg" alt="like">
+                        <a href="#">
+                            <button>SHOP NOW</button>
+                        </a>
+                    </div>
+                </div>
+                <h3>His Beard & Her Butt Shirts</h3>
+                <img src="img/icons/star.png" alt="star">
+                <img src="img/icons/price.png" alt="price">
+            </div>
+            <div class="container removetwo">
+                <div class="slider-item" style="background-image: url(img/card-item.png);">
+                    <div class="slider-header-cnt">
+                        <img src="img/icons/like.svg" alt="like">
+                        <a href="#">
+                            <button>SHOP NOW</button>
+                        </a>
+                    </div>
+                </div>
+                <h3>His Beard & Her Butt Shirts</h3>
+                <img src="img/icons/star.png" alt="star">
+                <img src="img/icons/price.png" alt="price">
+            </div>
+            <div class="container">
+                <div class="slider-item" style="background-image: url(img/card-item.png);">
+                    <div class="slider-header-cnt">
+                        <img src="img/icons/like.svg" alt="like">
+                        <a href="#">
+                            <button>SHOP NOW</button>
+                        </a>
+                    </div>
+                </div>
+                <h3>His Beard & Her Butt Shirts</h3>
+                <img src="img/icons/star.png" alt="star">
+                <img src="img/icons/price.png" alt="price">
             </div>
         </div>
-        <div class="most_popular">
-            <h2>Most Popular</h2>
+        <p>VIEW ALL PRODUCT</p>
+    </div>
+    <div id="lorem" class="lorem">
+        <div class="lorem__img-left">
+            <img src="img/mask-group-small-left.png" alt="mask-group">
+        </div>
+        <div class="star">
+            <img src="img/star.png" alt="star">
+            <div class="star__text">
+                <h3>-20%</h3>
+                <p>OFF</p>
+            </div>
+        </div>
+        <div class="lorem__text">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>Nunc varius velit ligula, ac finibus mauris fringilla quis. Donec ac porttitor massa. Aenean maximus nunc
+                neque, in sodales ipsum volutpat eget. Praesent tincidunt.</p>
+            <a href="#">SHOP NOW</a>
+        </div>
+        <div class="lorem__img-main">
+            <img src="img/mask-group.png" alt="mask-group">
+        </div>
+        <div class="lorem__img-right">
+            <img src="img/mask-group-small-righta.png" alt="mask-group">
+        </div>
+    </div>
+    <div class="shop__by-category">
+        <h1>SHOP BY GATEGORY</h1>
+        <div class="shop__img">
+            <div class="img">
+                <div class="text">
+                    <p>NEW IN</p>
+                </div>
+                <img src="img/card-item-couple-sit.png" alt="cart-item">
+            </div>
+            <div class="img">
+                <div class="text">
+                    <p>FOR HER</p>
+                </div>
+                <img src="img/card-item-couple-sit.png" alt="cart-item">
+            </div>
+            <div class="img">
+                <div class="text">
+                    <p>FOR HIM</p>
+                </div>
+                <img src="img/card-item-couple-sit.png" alt="cart-item">
+            </div>
+            <div class="img">
+                <div class="text">
+                    <p>SHIRTS</p>
+                </div>
+                <img src="img/card-item-couple-sit.png" alt="cart-item">
+            </div>
+            <div class="img">
+                <div class="text">
+                    <p>HODDIES</p>
+                </div>
+                <img src="img/card-item-couple-sit.png" alt="cart-item">
+            </div>
+            <div class="img">
+                <div class="text">
+                    <p>GIFTS</p>
+                </div>
+                <img src="img/card-item-couple-sit.png" alt="cart-item">
+            </div>
+            <div class="img">
+                <div class="text">
+                    <p>ACCESORIES</p>
+                </div>
+                <img src="img/card-item-couple-sit.png" alt="cart-item">
+            </div>
+            <div class="img">
+                <div class="text">
+                    <p>CHRISTMAS</p>
+                </div>
+                <img src="img/card-item-couple-sit.png" alt="cart-item">
+            </div>
+        </div>
+    </div>
+    <div id="section_four" class="section_four">
+        <div class="section_four__main">
+            <img src="img/red-couple.png" alt="beauty-beast-hoodies">
+        </div>
+        <div class="section_four__right">
+            <img src="img/beauty-beast-hoodies.png" alt="beauty-beast-hoodies">
+        </div>
+        <div class="section_four__text">
+            <h2>Aenean Sed Sap Euismod, Pulvinar</h2>
+            <p>Nunc varius velit ligula, ac finibus mauris</p>
+            <p>Nunc varius velit ligula, ac finibus mauris fringilla quis. Donec ac porttitor massa. Aenean maximus nunc
+                neque, in sodales ipsum volutpat eget. Praesent tincidunt purus quam, commodo finibus justo porttitor
+                sit amet. Nunc at vulputate erat, id elementum ante. Vivamus pharetra</p>
+            <a href="#">SHOP NOW</a>
+        </div>
+        <div class="border_two">
+            <img src="img/bordertwo.png" alt="bordertwo">;
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="section-wrapper">
+            <h2>Trending Now</h2>
             <div class="slider">
-                <div class="container remove">
-                    <div class="slider-item" style="background-image: url(img/card-item.png);">
-                      <div class="slider-header-cnt">
-                          <img src="img/icons/like.svg" alt="like">
-                          <a href="#"><button>SHOP NOW</button></a>
-                        </div>
-                    </div>
+                <div class="slider-item">
+                    <img src="img/card-item.png" alt="like" class="slider-img">
                     <h3>His Beard & Her Butt Shirts</h3>
                     <img src="img/icons/star.png" alt="star">
                     <img src="img/icons/price.png" alt="price">
                 </div>
-                <div class="container remove">
-                    <div class="slider-item" style="background-image: url(img/card-item.png);">
-                      <div class="slider-header-cnt">
-                          <img src="img/icons/like.svg" alt="like">
-                          <a href="#"><button>SHOP NOW</button></a>
-                      </div>
-                    </div>
+                <div class="slider-item">
+                    <img src="img/card-item.png" alt="like" class="slider-img">
                     <h3>His Beard & Her Butt Shirts</h3>
                     <img src="img/icons/star.png" alt="star">
                     <img src="img/icons/price.png" alt="price">
                 </div>
-                <div class="container remove">
-                    <div class="slider-item" style="background-image: url(img/card-item.png);">
-                      <div class="slider-header-cnt">
-                          <img src="img/icons/like.svg" alt="like">
-                          <a href="#"><button>SHOP NOW</button></a>
-                      </div>
-                    </div>
+                <div class="slider-item">
+                    <img src="img/card-item.png" alt="like" class="slider-img">
                     <h3>His Beard & Her Butt Shirts</h3>
                     <img src="img/icons/star.png" alt="star">
                     <img src="img/icons/price.png" alt="price">
                 </div>
-                <div class="container removetwo">
-                    <div class="slider-item" style="background-image: url(img/card-item.png);">
-                      <div class="slider-header-cnt">
-                          <img src="img/icons/like.svg" alt="like">
-                          <a href="#"><button>SHOP NOW</button></a>
-                      </div>
-                    </div>
-                    <h3>His Beard & Her Butt Shirts</h3>
-                    <img src="img/icons/star.png" alt="star">
-                    <img src="img/icons/price.png" alt="price">
-                </div>
-                <div class="container">
-                    <div class="slider-item" style="background-image: url(img/card-item.png);">
-                      <div class="slider-header-cnt">
-                          <img src="img/icons/like.svg" alt="like">
-                          <a href="#"><button>SHOP NOW</button></a>
-                      </div>
-                    </div>
+                <div class="slider-item">
+                    <img src="img/card-item.png" alt="like" class="slider-img">
                     <h3>His Beard & Her Butt Shirts</h3>
                     <img src="img/icons/star.png" alt="star">
                     <img src="img/icons/price.png" alt="price">
@@ -149,247 +293,131 @@
             </div>
             <p>VIEW ALL PRODUCT</p>
         </div>
-        <div id="lorem" class="lorem">
-            <div class="lorem__img-left">
-                <img src="img/mask-group-small-left.png" alt="mask-group">
-            </div>
-            <div class="star">
-                <img src="img/star.png" alt="star">
-                <div class="star__text">
-                    <h3>-20%</h3>
-                    <p>OFF</p>
-                </div>
-            </div>
-            <div class="lorem__text">
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>Nunc varius velit ligula, ac finibus mauris fringilla quis. Donec ac porttitor massa. Aenean maximus nunc neque, in sodales ipsum volutpat eget. Praesent tincidunt.</p>
-                <a href="#">SHOP NOW</a>
-            </div>
-                <div class="lorem__img-main">
-                    <img src="img/mask-group.png" alt="mask-group">
-                </div>
-                <div class="lorem__img-right">
-                    <img src="img/mask-group-small-righta.png" alt="mask-group">
-                </div>
-        </div>
-        <div class="shop__by-category">
-            <h1>SHOP BY GATEGORY</h1>
-            <div class="shop__img">
-                <div class="img">
-                    <div class="text">
-                        <p>NEW IN</p>
-                    </div>
-                    <img src="img/card-item-couple-sit.png" alt="cart-item">
-                </div>
-                <div class="img">
-                    <div class="text">
-                        <p>FOR HER</p>
-                    </div>
-                    <img src="img/card-item-couple-sit.png" alt="cart-item">
-                </div>
-                <div class="img">
-                    <div class="text">
-                        <p>FOR HIM</p>
-                    </div>
-                    <img src="img/card-item-couple-sit.png" alt="cart-item">
-                </div>
-                <div class="img">
-                    <div class="text">
-                        <p>SHIRTS</p>
-                    </div>
-                    <img src="img/card-item-couple-sit.png" alt="cart-item">
-                </div>
-                <div class="img">
-                    <div class="text">
-                        <p>HODDIES</p>
-                    </div>
-                    <img src="img/card-item-couple-sit.png" alt="cart-item">
-                </div>
-                <div class="img">
-                    <div class="text">
-                        <p>GIFTS</p>
-                    </div>
-                    <img src="img/card-item-couple-sit.png" alt="cart-item">
-                </div>
-                <div class="img">
-                    <div class="text">
-                        <p>ACCESORIES</p>
-                    </div>
-                    <img src="img/card-item-couple-sit.png" alt="cart-item">
-                </div>
-                <div class="img">
-                    <div class="text">
-                        <p>CHRISTMAS</p>
-                    </div>
-                    <img src="img/card-item-couple-sit.png" alt="cart-item">
-                </div>
-            </div>
-        </div>
-        <div id="section_four" class="section_four">
-            <div class="section_four__main">
-                <img src="img/red-couple.png" alt="beauty-beast-hoodies">
-            </div>
-            <div class="section_four__right">
-                <img src="img/beauty-beast-hoodies.png" alt="beauty-beast-hoodies">
-            </div>
-            <div class="section_four__text">
-                <h2>Aenean Sed Sap Euismod, Pulvinar</h2>
-                <p>Nunc varius velit ligula, ac finibus mauris</p>
-                <p>Nunc varius velit ligula, ac finibus mauris fringilla quis. Donec ac porttitor massa. Aenean maximus nunc neque, in sodales ipsum volutpat eget. Praesent tincidunt purus quam, commodo finibus justo porttitor sit amet. Nunc at vulputate erat, id elementum ante. Vivamus pharetra</p>
-                <a href="#">SHOP NOW</a>
-            </div>
-            <div class="border_two">
-                <img src="img/bordertwo.png" alt="bordertwo">;
-            </div>
-        </div>
 
-        <section class="section">
-            <div class="section-wrapper">
-                <h2>Trending Now</h2>
-                <div class="slider">
-                    <div class="slider-item">
-                        <img src="img/card-item.png" alt="like" class="slider-img">
-                        <h3>His Beard & Her Butt Shirts</h3>
-                        <img src="img/icons/star.png" alt="star">
-                        <img src="img/icons/price.png" alt="price">
-                    </div>
-                    <div class="slider-item">
-                        <img src="img/card-item.png" alt="like" class="slider-img">
-                        <h3>His Beard & Her Butt Shirts</h3>
-                        <img src="img/icons/star.png" alt="star">
-                        <img src="img/icons/price.png" alt="price">
-                    </div>
-                    <div class="slider-item">
-                        <img src="img/card-item.png" alt="like" class="slider-img">
-                        <h3>His Beard & Her Butt Shirts</h3>
-                        <img src="img/icons/star.png" alt="star">
-                        <img src="img/icons/price.png" alt="price">
-                    </div>
-                    <div class="slider-item">
-                        <img src="img/card-item.png" alt="like" class="slider-img">
-                        <h3>His Beard & Her Butt Shirts</h3>
-                        <img src="img/icons/star.png" alt="star">
-                        <img src="img/icons/price.png" alt="price">
-                    </div>
-                </div>
-                <p>VIEW ALL PRODUCT</p>
-            </div>
-
-        </section>
-        <div class="revievs">
-            <div class="revievs__cnt">
-                <h3>Revievs</h3>
-                <p>Nunc varius velit ligula, ac finibus mauris fringilla quis. Donec ac porttitor massa. Aenean maximus nunc.</p>
-            </div>
-            <div class="revievs__slider">
-                <div class="revievs__slider_container">
-                    <div class="revievs__slider_cnt">
-                        <img src="img/review-image.png" alt="review-image">
-                        <h3>Jacob Jones</h3>
-                        <p>Pellentesque et aliquam augue, ac scelerisque quam. Nullam auctor augue id nibh imperdiet, 
-                          et mattis lorem rutrum. Sed consectetur est convallis metus rhoncus, sit amet commodo lectus venenatis. 
-                          Cras commodo fringilla pretium. Pellentesque tristique pulvinar velit nec malesuada. Nunc id posuere diam.
-                          Vestibulu!</p>
-                          <img src="img/icons/Vector.svg" alt="Vector">
-                   </div>
-                   <div class="revievs__slider_cnt">
-                      <img src="img/review-image.png" alt="review-image">
-                      <h3>Jacob Jones</h3>
-                      <p>Pellentesque et aliquam augue, ac scelerisque quam. Nullam auctor augue id nibh imperdiet, 
-                        et mattis lorem rutrum. Sed consectetur est convallis metus rhoncus, sit amet commodo lectus venenatis. 
-                        Cras commodo fringilla pretium. Pellentesque tristique pulvinar velit nec malesuada. Nunc id posuere diam.
-                        Vestibulu!</p>
-                        <img src="img/icons/Vector.svg" alt="Vector">
-                 </div>
-                 <div class="revievs__slider_cnt">
+    </section>
+    <div class="revievs">
+        <div class="revievs__cnt">
+            <h3>Revievs</h3>
+            <p>Nunc varius velit ligula, ac finibus mauris fringilla quis. Donec ac porttitor massa. Aenean maximus
+                nunc.</p>
+        </div>
+        <div class="revievs__slider">
+            <div class="revievs__slider_container">
+                <div class="revievs__slider_cnt">
                     <img src="img/review-image.png" alt="review-image">
                     <h3>Jacob Jones</h3>
-                    <p>Pellentesque et aliquam augue, ac scelerisque quam. Nullam auctor augue id nibh imperdiet, 
-                      et mattis lorem rutrum. Sed consectetur est convallis metus rhoncus, sit amet commodo lectus venenatis. 
-                      Cras commodo fringilla pretium. Pellentesque tristique pulvinar velit nec malesuada. Nunc id posuere diam.
-                      Vestibulu!</p>
-                      <img src="img/icons/Vector.svg" alt="Vector">
-               </div>
+                    <p>Pellentesque et aliquam augue, ac scelerisque quam. Nullam auctor augue id nibh imperdiet,
+                        et mattis lorem rutrum. Sed consectetur est convallis metus rhoncus, sit amet commodo lectus
+                        venenatis.
+                        Cras commodo fringilla pretium. Pellentesque tristique pulvinar velit nec malesuada. Nunc id
+                        posuere diam.
+                        Vestibulu!</p>
+                    <img src="img/icons/Vector.svg" alt="Vector">
+                </div>
+                <div class="revievs__slider_cnt">
+                    <img src="img/review-image.png" alt="review-image">
+                    <h3>Jacob Jones</h3>
+                    <p>Pellentesque et aliquam augue, ac scelerisque quam. Nullam auctor augue id nibh imperdiet,
+                        et mattis lorem rutrum. Sed consectetur est convallis metus rhoncus, sit amet commodo lectus
+                        venenatis.
+                        Cras commodo fringilla pretium. Pellentesque tristique pulvinar velit nec malesuada. Nunc id
+                        posuere diam.
+                        Vestibulu!</p>
+                    <img src="img/icons/Vector.svg" alt="Vector">
+                </div>
+                <div class="revievs__slider_cnt">
+                    <img src="img/review-image.png" alt="review-image">
+                    <h3>Jacob Jones</h3>
+                    <p>Pellentesque et aliquam augue, ac scelerisque quam. Nullam auctor augue id nibh imperdiet,
+                        et mattis lorem rutrum. Sed consectetur est convallis metus rhoncus, sit amet commodo lectus
+                        venenatis.
+                        Cras commodo fringilla pretium. Pellentesque tristique pulvinar velit nec malesuada. Nunc id
+                        posuere diam.
+                        Vestibulu!</p>
+                    <img src="img/icons/Vector.svg" alt="Vector">
                 </div>
             </div>
         </div>
-        <div class="follow_our_instagram">
-            <div class="text">
-                <h2>Follow Our Instagram</h2>
-                <h5> <a href="https://www.instagram.com/" target="blank">@Onceuponus</a></h5>
-            </div>
-            <div class="follow_our_instagram__img">
-                <img class="removethree" src="img/card-item.png" alt="card-item">
-                <img class="removethree" src="img/follow-instagram-couple.png" alt="follow-instagram-couple">
-                <img class="removethree" src="img/card-item.png" alt="card-item">
-                <img class="removethree" src="img/follow-instagram-couple.png" alt="follow-instagram-couple">
-                <img class="removethree" src="img/card-item.png" alt="card-item">
-                <img class="removethree" src="img/follow-instagram-couple.png" alt="follow-instagram-couple">
-                <img class="removethree" src="img/card-item.png" alt="card-item">
-                <img class="removethree" src="img/follow-instagram-couple.png" alt="follow-instagram-couple">
-                <img class="removethree" src="img/card-item.png" alt="card-item">
-                <img class="removethree" src="img/follow-instagram-couple.png" alt="follow-instagram-couple">
-                <img src="img/card-item.png" alt="card-item">
-                <img src="img/follow-instagram-couple.png" alt="follow-instagram-couple">
-            </div>
+    </div>
+    <div class="follow_our_instagram">
+        <div class="text">
+            <h2>Follow Our Instagram</h2>
+            <h5><a href="https://www.instagram.com/" target="blank">@Onceuponus</a></h5>
         </div>
-    </main>
-    <footer>
-        <div class="footer">
-            <div class="footer__text">
-                <h5>Sed Dapibus Ultricies Molestie.</h5>
-                <p>Maecenas placerat rutrum mi, facilisis ultrices lectus aliquam quis. Sed viverra, odio et mollis sodales, elit metus</p>
-                <p>blandit felis, vitae ultricies ligula enim quis metus. Sed ultricies ullamcorper ante, et dictum felis dignissim condimentum. Phasellus ante ante, 
-                sagittis vel ligula vel, ullamcorper mollis nisl. Maecenas ut</p> 
-                <p>© Once Upon Us</p>
-            </div>
-            <div class="footer__shop eff">
-                <h5>SHOP</h5>
-                <p>Shop All</p>
-                <p>Best Seller</p>
-                <p>For Her</p>
-                <p>For Him</p>
-                <p>Couple</p>
-                <p>Accesories</p>
-                <p>Gifts</p>
-            </div>
-            <div class="footer__help eff">
-                <h5>HELP</h5>
-                <p>Search</p>
-                <p>Shipping Guide</p>
-                <p>Privacy Policy</p>
-                <p>Return Policy</p>
-                <p>FAQ</p>
-                <p>About Us</p>
-                <p>Contacts</p>
-            </div>
-            <div class="footer__new-sletter">
-                <h5>NEW SLETTER</h5>
-                <p>Subscribe to receive updates, access <br> to exclusive deals, and more.</p>
-                <div class="sbt">
-                    <div class="input">
-                        <input type="text" placeholder="Your Email">
-                    </div>
-                    <div class="button">
-                        <input type="submit" value="SUBSCRIBE"></input>
-                    </div>
+        <div class="follow_our_instagram__img">
+            <img class="removethree" src="img/card-item.png" alt="card-item">
+            <img class="removethree" src="img/follow-instagram-couple.png" alt="follow-instagram-couple">
+            <img class="removethree" src="img/card-item.png" alt="card-item">
+            <img class="removethree" src="img/follow-instagram-couple.png" alt="follow-instagram-couple">
+            <img class="removethree" src="img/card-item.png" alt="card-item">
+            <img class="removethree" src="img/follow-instagram-couple.png" alt="follow-instagram-couple">
+            <img class="removethree" src="img/card-item.png" alt="card-item">
+            <img class="removethree" src="img/follow-instagram-couple.png" alt="follow-instagram-couple">
+            <img class="removethree" src="img/card-item.png" alt="card-item">
+            <img class="removethree" src="img/follow-instagram-couple.png" alt="follow-instagram-couple">
+            <img src="img/card-item.png" alt="card-item">
+            <img src="img/follow-instagram-couple.png" alt="follow-instagram-couple">
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer">
+        <div class="footer__text">
+            <h5>Sed Dapibus Ultricies Molestie.</h5>
+            <p>Maecenas placerat rutrum mi, facilisis ultrices lectus aliquam quis. Sed viverra, odio et mollis sodales,
+                elit metus</p>
+            <p>blandit felis, vitae ultricies ligula enim quis metus. Sed ultricies ullamcorper ante, et dictum felis
+                dignissim condimentum. Phasellus ante ante,
+                sagittis vel ligula vel, ullamcorper mollis nisl. Maecenas ut</p>
+            <p>© Once Upon Us</p>
+        </div>
+        <div class="footer__shop eff">
+            <h5>SHOP</h5>
+            <p>Shop All</p>
+            <p>Best Seller</p>
+            <p>For Her</p>
+            <p>For Him</p>
+            <p>Couple</p>
+            <p>Accesories</p>
+            <p>Gifts</p>
+        </div>
+        <div class="footer__help eff">
+            <h5>HELP</h5>
+            <p>Search</p>
+            <p>Shipping Guide</p>
+            <p>Privacy Policy</p>
+            <p>Return Policy</p>
+            <p>FAQ</p>
+            <p>About Us</p>
+            <p>Contacts</p>
+        </div>
+        <div class="footer__new-sletter">
+            <h5>NEW SLETTER</h5>
+            <p>Subscribe to receive updates, access <br> to exclusive deals, and more.</p>
+            <div class="sbt">
+                <div class="input">
+                    <input type="text" placeholder="Your Email">
                 </div>
-                <div class="icons">
-                    <a href="https://www.facebook.com/" target="blank">
-                        <img src="img/icons/fb.svg" alt="fb">
-                    </a>
-                    <a href="https://www.instagram.com/" target="blank">
-                        <img src="img/icons/insta.svg" alt="insta">
-                    </a>
-                    <a href="https://xn--80affa3aj0al.xn--80asehdb/#/login" target="blank">
-                        <img src="img/icons/send.svg" alt="send">
-                    </a>
+                <div class="button">
+                    <input type="submit" value="SUBSCRIBE"></input>
                 </div>
             </div>
+            <div class="icons">
+                <a href="https://www.facebook.com/" target="blank">
+                    <img src="img/icons/fb.svg" alt="fb">
+                </a>
+                <a href="https://www.instagram.com/" target="blank">
+                    <img src="img/icons/insta.svg" alt="insta">
+                </a>
+                <a href="https://xn--80affa3aj0al.xn--80asehdb/#/login" target="blank">
+                    <img src="img/icons/send.svg" alt="send">
+                </a>
+            </div>
         </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/slick.min.js"></script>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
