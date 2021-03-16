@@ -11,7 +11,6 @@
     align-items: center;
     z-index: 100000;
     overflow: hidden;
-    background-color: #fff;
     a{
         text-decoration: none;
     }
@@ -30,12 +29,13 @@
         }
     }
     &__bottom{
-        display: contents;
+        display: flex;
+        justify-content: center;
         background-color: #fff;
-        // width: 100%;
-        .nav{
+        width: 100%;
+        nav{
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             padding-top: 15px;
             margin-bottom: 15px;
             border-top: 0.2px solid #DADADA;
@@ -45,17 +45,12 @@
                 font-size: 14px;
                 line-height: 17px;
                 color: #5C5C5C;
-                padding: 30px;
             }
             a:hover{
                 color: #FE5269;
             }
-            ul{
-                display: flex;
-                
-                list-style: none;
-            }
         }
+        
     }
     &__under-bottom{
         height: 25px;
@@ -173,17 +168,16 @@ main{
 // MAIN
 
 .hero{
+    height: 630px;
     width: 1440px;
     img{
-        position: relative;
         top: -110px;
         z-index: 0;
     }
     &__text{
-        // display: none;
         position: absolute;
-        top: 253px;
-        left: 220px;
+        top: 53px;
+        left: 120px;
         width: 525px;
         height: 230px;
         h1{
@@ -217,22 +211,14 @@ main{
 
     .most_popular{
         margin: 50px 0 180px 0;
+        // .one{
+        //   background: rgba(0, 0, 0, 0.90);
+        // }
         button{
-            display: none;
             width: 186px;
             height: 44px;
             margin: 100px 0 0 37px;
             cursor: pointer;
-            background-color: #FE5269;
-            border: none;
-            border-radius: 12px;
-            text-decoration-line:none;
-            color: #fff;
-        }
-        .container:hover{
-            button{
-                display: block;
-            }
         }
         .slider-header-cnt a{
         width: 186px;
@@ -695,21 +681,5 @@ main{
         border-radius: 50%;
       }
 
-      #check{
-        opacity: 0;
-    }
-    .menubush{
-        opacity: 0;
-     
-    }
-
-    .header__bottom nav{
-        width: 20px;
-        padding: 0;
-    }
-
-    #check{
-        opacity: 0;
-    }
-
   
+
