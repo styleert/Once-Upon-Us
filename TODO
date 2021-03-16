@@ -1,0 +1,4 @@
+0 merge slider.css and style.css
+1 change upper slider
+2 divide main sections by section -> div (section wrapper)
+3 cleanup css styles for chrome firefox
