@@ -175,18 +175,18 @@
 }
 
 main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 auto;
-  max-width: 1440px;
+  /*display: -webkit-box;*/
+  /*display: -ms-flexbox;*/
+  /*display: flex;*/
+  /*-webkit-box-orient: vertical;*/
+  /*-webkit-box-direction: normal;*/
+  /*    -ms-flex-direction: column;*/
+  /*        flex-direction: column;*/
+  /*-webkit-box-align: center;*/
+  /*    -ms-flex-align: center;*/
+  /*        align-items: center;*/
+  /* margin: 0 auto; */
+  /* max-width: 1440px; */
 }
 
 .main-inp {
@@ -579,7 +579,6 @@ button{
 }
 
 .trending_now {
-  margin: 50px 0 50px 0;
 }
 
 .trending_now h2 {
@@ -629,7 +628,7 @@ button{
           flex-direction: row;
   background-color: #262020;
   height: 591px;
-  max-width: 1440px;
+  /*max-width: 1440px;*/
 }
 
 .revievs__cnt {
@@ -923,32 +922,30 @@ button{
 }
 
 .slider {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /*display: -webkit-box;*/
+  /*display: -ms-flexbox;*/
+  /*display: flex;*/
+  /*-webkit-box-align: center;*/
+  /*    -ms-flex-align: center;*/
+  /*        align-items: center;*/
+  /*max-width: 1430px;*/
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  max-width: 1430px;
+  flex-direction: column;
+  width: 100%;
 }
 
 .slider .container h3 {
   font-size: 16px;
 }
 
-.slider-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 270px;
-  height: 315px;
-  background-size: cover;
-  margin: 20px;
-}
+
+/* todo: rename img-wrapper */
+/*.slider-item {*/
+
+/*  width: 270px;*/
+/*  height: 315px;*/
+/*  margin: 20px;*/
+/*}*/
 
 .slider .slick-arrow {
   position: absolute;
@@ -966,3 +963,4 @@ button{
   opacity: 0;
 }
 /*# sourceMappingURL=style.css.map */
+

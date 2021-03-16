@@ -1,8 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    overflow: hidden;
+}
+
+.trending-cnt {
+    width: 1368px;
+}
+
 @media only screen and (max-width: 1457px) {
     .header{
         position: relative;
     }
-
 }
 
 @media only screen and (max-width: 1200px) {
@@ -54,9 +64,9 @@
         display: none;
     }
 
-    .slick-list.draggable{
-        width: 800px;
-    }
+    /*.slick-list.draggable{*/
+    /*    !*width: 800px;*!*/
+    /*}*/
 }
 @media only screen and (max-width: 992px) {
 
@@ -67,9 +77,9 @@
         padding-right: 5px;
     }
 
-    .slick-list.draggable{
-        width: 600px;
-    }
+    /*.slick-list.draggable{*/
+    /*    !*width: 600px;*!*/
+    /*}*/
 
     .phone_number{
         display: none;
@@ -235,9 +245,9 @@
         justify-content: center;
         align-items: center;
     }
-    .slick-list.draggable{
-        width: 600px;
-    }
+    /*.slick-list.draggable{*/
+    /*    width: 600px;*/
+    /*}*/
 }
 @media only screen and (max-width: 520px) {
     .main-inp input{
@@ -312,9 +322,9 @@
 
 
 @media (min-width: 320px) and (max-width: 376px) {
-    .slick-list.draggable{
-        width: 250px;
-    }
+    /*.slick-list.draggable{*/
+    /*    width: 250px;*/
+    /*}*/
 }
 
 @media (min-width: 320px) and (max-width: 1460px){
@@ -330,16 +340,15 @@
     } */
 }
 
-
 @media (min-width: 320px) and (max-width: 1360px){
-    .slick-list.draggable{
-        width: 1290px;
-    }
+    /*.slick-list.draggable{*/
+    /*    width: 1290px;*/
+    /*}*/
 }
 @media (min-width: 320px) and (max-width: 520px) {
-    .slick-list.draggable{
-        width: 290px;
-    }
+    /*.slick-list.draggable{*/
+    /*    width: 290px;*/
+    /*}*/
     .most_popular h2{
         text-align: center;
     }

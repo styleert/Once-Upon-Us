@@ -5,7 +5,7 @@ $(document).ready(function () {
     slidesToShow: 4,
     slidesToScroll: 4,
     arrows: true,
-    mobileFirst:true,
+    // mobileFirst:true,
     responsive: [
       {
         breakpoint: 1450,
@@ -37,13 +37,13 @@ $(document).ready(function () {
           slidesToScroll: 1
         }
       },
-      {
-        breakpoint: 375,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
+      // {
+      //   breakpoint: 375,
+      //   settings: {
+      //     slidesToShow: 1,
+      //     slidesToScroll: 1
+      //   }
+      // }
     ]
 });
 });
