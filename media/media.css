@@ -140,7 +140,7 @@
   }
   .menu {
     position: fixed;
-    bottom: 325px;
+    bottom: 240px;
     left: -120%;
     background: #f8cd53;
     transition: all 0.6s;
