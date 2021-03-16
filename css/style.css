@@ -52,38 +52,41 @@
 }
 
 .header__bottom {
+  display: contents;
+  background-color: #fff;
+  width: 100%;
+}
+
+.header__bottom .nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #fff;
-  width: 100%;
-}
-
-.header__bottom nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding-top: 15px;
   margin-bottom: 15px;
   border-top: 0.2px solid #DADADA;
   width: 1200px;
 }
 
-.header__bottom nav a {
+.header__bottom .nav a {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #5C5C5C;
+  padding: 30px;
 }
 
-.header__bottom nav a:hover {
+.header__bottom .nav a:hover {
   color: #FE5269;
+}
+
+.header__bottom .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
 }
 
 .header__under-bottom {
@@ -239,18 +242,17 @@ main {
 }
 
 .hero {
-  position: relative;
   height: 630px;
   width: 1440px;
 }
 
 .hero img {
-  position: absolute;
   top: -110px;
   z-index: 0;
 }
 
 .hero__text {
+  display: none;
   position: absolute;
   top: 53px;
   left: 120px;
@@ -671,7 +673,7 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  max-width: 978px;
+  width: 30%;
 }
 
 .revievs__slider_cnt {
@@ -902,12 +904,7 @@ main {
 }
 
 .slider {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: block;
   max-width: 1430px;
 }
 
@@ -916,13 +913,7 @@ main {
 }
 
 .slider-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  display: block;
   width: 270px;
   height: 315px;
   background-size: cover;
@@ -939,5 +930,27 @@ main {
   height: 30px;
   background-color: #272727;
   border-radius: 50%;
+}
+
+#check {
+  opacity: 0;
+}
+
+.menubush {
+  opacity: 0;
+}
+
+.header__bottom nav {
+  width: 20px;
+  padding: 0;
+}
+
+.menu ul {
+  -webkit-transform: translateY(-20px) translateX(70px);
+          transform: translateY(-20px) translateX(70px);
+}
+
+#check {
+  opacity: 0;
 }
 /*# sourceMappingURL=style.css.map */

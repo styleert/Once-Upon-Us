@@ -29,13 +29,12 @@
         }
     }
     &__bottom{
-        display: flex;
-        justify-content: center;
+        display: contents;
         background-color: #fff;
         width: 100%;
-        nav{
+        .nav{
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             padding-top: 15px;
             margin-bottom: 15px;
             border-top: 0.2px solid #DADADA;
@@ -45,12 +44,16 @@
                 font-size: 14px;
                 line-height: 17px;
                 color: #5C5C5C;
+                padding: 30px;
             }
             a:hover{
                 color: #FE5269;
             }
+            ul{
+                display: flex;
+                list-style: none;
+            }
         }
-        
     }
     &__under-bottom{
         height: 25px;
@@ -175,6 +178,7 @@ main{
         z-index: 0;
     }
     &__text{
+        display: none;
         position: absolute;
         top: 53px;
         left: 120px;
@@ -681,5 +685,25 @@ main{
         border-radius: 50%;
       }
 
-  
+      #check{
+        opacity: 0;
+    }
+    .menubush{
+        opacity: 0;
+     
+    }
 
+    .header__bottom nav{
+        width: 20px;
+        padding: 0;
+    }
+    
+    .menu ul{
+        transform: translateY(-20px) translateX(70px);
+    }
+
+    #check{
+        opacity: 0;
+    }
+
+  
