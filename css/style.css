@@ -19,6 +19,7 @@
           align-items: center;
   z-index: 100000;
   overflow: hidden;
+  background-color: #fff;
 }
 
 .header a {
@@ -242,20 +243,19 @@ main {
 }
 
 .hero {
-  height: 630px;
   width: 1440px;
 }
 
 .hero img {
+  position: relative;
   top: -110px;
   z-index: 0;
 }
 
 .hero__text {
-  display: none;
   position: absolute;
-  top: 53px;
-  left: 120px;
+  top: 253px;
+  left: 220px;
   width: 525px;
   height: 230px;
 }
