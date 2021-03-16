@@ -329,6 +329,13 @@
         top: 150px;
     } */
 }
+
+
+@media (min-width: 320px) and (max-width: 1360px){
+    .slick-list.draggable{
+        width: 1290px;
+    }
+}
 @media (min-width: 320px) and (max-width: 520px) {
     .slick-list.draggable{
         width: 290px;
@@ -346,4 +353,5 @@
         font-size: 8px;
     }
  }
+
 
